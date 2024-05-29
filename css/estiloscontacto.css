@@ -1,0 +1,57 @@
+section article h1{
+    text-align: center;
+}
+section article p{
+    opacity: 1;
+}
+section article div#img{
+    text-align: center;
+}
+section article div#img img{
+    width:80%;
+    margin:4% 0px;
+    box-shadow: 10px 10px 10px black;
+}
+section article div#img, section article form{
+    width: 70%;
+    margin: auto;
+}
+section article form fieldset{
+    border: none;
+}
+section article form fieldset p label{
+    font-weight: bold;
+}
+section article form fieldset p label span{
+    font-size: small;
+    color: brown;
+}
+section article form fieldset p input, section article form fieldset p textarea{
+    font-family: Calibri;
+    padding: 5px;
+    background-color: #313131;
+    border-radius: 4px;
+    border:1px solid lightgrey;
+    color: white;
+    width: 100%;
+}
+section article form fieldset p textarea{
+    height: 150px;
+}
+section article form fieldset p input:focus, section article form fieldset p textarea:focus{
+    background-color: black;
+}
+section article form div#envio{
+    text-align: center;
+}
+section article form div#envio input{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+section article form div#envio input:hover{
+    background-color: aqua;
+    cursor: pointer;
+
+}
